@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SiseLogin</string>
+    <string name="action_settings">Settings</string>
+    <string name="edtUserLogin">Ingrese usuario</string>
+    <string name="edtUserPassword">Ingrese contraseña</string>
+    <string name="btnLogin">Ingrese</string>
+    <string name="tvMensajeUser">No posee un Usuario..?</string>
+    <string name="tvCrear">Crear Usuario</string>
+    <string name="tvBienvenida">Bienvenido al Menú</string>
+    <string name="tvCrearUsuario">Crear Usuario</string>
+
+    <string name="tituloToolbarCreateUser">Crear Usuario</string>
+    <string name="edtCrearUsuario">Usuario</string>
+    <string name="edtEmail">Email</string>
+    <string name="edtNombres">Nombres</string>
+    <string name="edtApellidos">Apellidos</string>
+    <string name="edtDni">Dni</string>
+    <string name="edtPassword">Password</string>
+    <string name="btnCrear">Crear Usuario</string>
+
+</resources>

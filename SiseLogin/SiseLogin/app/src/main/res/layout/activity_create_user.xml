@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.cisco.siselogin.CreateUserActivity">
+
+    <include layout="@layout/activity_toolbar"></include>
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       app:layout_behavior="@string/appbar_scrolling_view_behavior"
+       android:fillViewport="true"
+       android:fitsSystemWindows="true">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <android.support.design.widget.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:theme="@style/myStyleEditText2"
+               >
+
+               <android.support.design.widget.TextInputEditText
+                   android:id="@+id/edtCrearUsuario"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="@string/edtCrearUsuario"
+                   android:inputType="text"/>
+           </android.support.design.widget.TextInputLayout>
+
+           <android.support.design.widget.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:theme="@style/myStyleEditText2">
+
+               <android.support.design.widget.TextInputEditText
+                   android:id="@+id/edtedtEmail"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="@string/edtEmail"
+                   android:inputType="text"/>
+           </android.support.design.widget.TextInputLayout>
+
+           <android.support.design.widget.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:theme="@style/myStyleEditText2">
+
+               <android.support.design.widget.TextInputEditText
+                   android:id="@+id/edtNombres"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="@string/edtNombres"
+                   android:inputType="text"/>
+           </android.support.design.widget.TextInputLayout>
+
+           <android.support.design.widget.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:theme="@style/myStyleEditText2">
+
+               <android.support.design.widget.TextInputEditText
+                   android:id="@+id/edtApellidos"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="@string/edtApellidos"
+                   android:inputType="text"/>
+           </android.support.design.widget.TextInputLayout>
+
+           <android.support.design.widget.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:theme="@style/myStyleEditText2">
+
+               <android.support.design.widget.TextInputEditText
+                   android:id="@+id/edtDni"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="@string/edtDni"
+                   android:inputType="text"/>
+           </android.support.design.widget.TextInputLayout>
+
+           <android.support.design.widget.TextInputLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:theme="@style/myStyleEditText2">
+
+               <android.support.design.widget.TextInputEditText
+                   android:id="@+id/edtPassword"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:hint="@string/edtPassword"
+                   android:inputType="text"/>
+           </android.support.design.widget.TextInputLayout>
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/btnCrear"
+               android:text="@string/btnCrear"
+               android:theme="@style/myStyleButton"/>
+       </LinearLayout>
+
+   </ScrollView>
+
+
+    </android.support.design.widget.CoordinatorLayout>

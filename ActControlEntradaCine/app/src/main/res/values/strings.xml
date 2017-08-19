@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ActControlEntradaCine</string>
+    <string name="msnombres">Nombres</string>
+    <string name="msapellido">Apellidos</string>
+    <string name="msedad">Edad</string>
+    <string name="msdni">Documentos que sustentan su ingreso</string>
+    <string name="msmsi">SI</string>
+    <string name="msmno">NO</string>
+    <string name="btn1">Validar Ingreso</string>
+    <string name="btn2">Resetear Ingreso</string>
+</resources>

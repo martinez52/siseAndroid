@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practica02</string>
+    <string name="tema">Suma de Numero</string>
+    <string name="n1">Primer N</string>
+    <string name="n2">Segundo N</string>
+    <string name="suma">Calcular Suma</string>
+    <string name="limpiar">Limpiar</string>
+</resources>
